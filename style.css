@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #4676b4;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 25px;
+    align-items: center;
+}
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:visited{
+    color: #000;
+}
+
+.logo:hover{
+    font-size: 1.1em;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px;
+}
+
+li{
+    padding: 30px;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:visited{
+    color:#000;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: #d3dde9;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: #f6f7f9;
+}
+
+.animais{
+    background-color: #172449;
+    border-radius: 10px;
+    text-align: center;
+    color:#f6f7f9;
+    width: 20%;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.animais img{
+    width: 75%;
+    height: 50%
+}
+
+.nome{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #4676b4;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 700px){
+     .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    .menu{
+        width: 100%;
+    }
+    .opçoes{
+        box-sizing: border-box;
+        padding: 25px 0;
+    }
+    .animais{
+        width: 90%;
+    }
+}
