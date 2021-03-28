@@ -95,7 +95,6 @@ li a:hover{
 
 .animais img{
     width: 75%;
-    height: 50%
 }
 
 .nome{
@@ -116,7 +115,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 550px
+        height: fit-content;
     }
     .menu{
         width: 100%;
